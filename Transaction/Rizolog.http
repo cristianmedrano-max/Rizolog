@@ -1,0 +1,6 @@
+@Rizolog_HostAddress = http://localhost:5022
+
+GET {{Rizolog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

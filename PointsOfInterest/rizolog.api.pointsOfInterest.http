@@ -1,0 +1,6 @@
+@rizolog.api.pointsOfInterest_HostAddress = http://localhost:5031
+
+GET {{rizolog.api.pointsOfInterest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
