@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.reports", "Repo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "Users\rizolog.api.users.csproj", "{5A044A09-3F61-4287-AB45-A5D03E263B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transaccions", Transaccions\rizolog.api.transaccions.csproj", "{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transactions", "..\rizolog.api.transactions\rizolog.api.transactions.csproj", "{688CA025-74A4-4B38-922A-DD01960249EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +55,10 @@ Global
 		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688CA025-74A4-4B38-922A-DD01960249EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688CA025-74A4-4B38-922A-DD01960249EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688CA025-74A4-4B38-922A-DD01960249EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688CA025-74A4-4B38-922A-DD01960249EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,7 +71,7 @@ Global
 		{E15BD327-B588-4182-AAA0-BBC03AC1213B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A8981D22-6CAD-41C8-83B4-3E1976CA64E0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5A044A09-3F61-4287-AB45-A5D03E263B15} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{688CA025-74A4-4B38-922A-DD01960249EF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA2E14D9-7F73-4D01-87D3-9D294E4F510F}
