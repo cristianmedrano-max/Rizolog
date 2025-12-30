@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transactions", "Transaction\rizolog.api.transactions.csproj", "{95EE42FD-20F3-4DEF-BDE9-6541DB649604}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "Users\rizolog.api.users.csproj", "{8F62AB77-872F-41DC-ABC1-7126B1007E27}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.abms", "ABMs\rizolog.api.abms.csproj", "{3E41DFC3-1557-40CD-A8C2-1B3580420F6E}"
@@ -21,20 +17,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.pointsOfInteres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.reports", "Reports\rizolog.api.reports.csproj", "{A8981D22-6CAD-41C8-83B4-3E1976CA64E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "rizolog.api.users\rizolog.api.users.csproj", "{5A044A09-3F61-4287-AB45-A5D03E263B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transaccions", "rizolog.api.transaccions\rizolog.api.transaccions.csproj", "{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95EE42FD-20F3-4DEF-BDE9-6541DB649604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95EE42FD-20F3-4DEF-BDE9-6541DB649604}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95EE42FD-20F3-4DEF-BDE9-6541DB649604}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95EE42FD-20F3-4DEF-BDE9-6541DB649604}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F62AB77-872F-41DC-ABC1-7126B1007E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F62AB77-872F-41DC-ABC1-7126B1007E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F62AB77-872F-41DC-ABC1-7126B1007E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F62AB77-872F-41DC-ABC1-7126B1007E27}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E41DFC3-1557-40CD-A8C2-1B3580420F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E41DFC3-1557-40CD-A8C2-1B3580420F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E41DFC3-1557-40CD-A8C2-1B3580420F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,19 +51,27 @@ Global
 		{A8981D22-6CAD-41C8-83B4-3E1976CA64E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8981D22-6CAD-41C8-83B4-3E1976CA64E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8981D22-6CAD-41C8-83B4-3E1976CA64E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A044A09-3F61-4287-AB45-A5D03E263B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{95EE42FD-20F3-4DEF-BDE9-6541DB649604} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{8F62AB77-872F-41DC-ABC1-7126B1007E27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3E41DFC3-1557-40CD-A8C2-1B3580420F6E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{45FEF413-F0EE-431A-A25D-63C2276FDC53} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{DA915631-2F40-4221-9FB6-14082A12A9C5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{46309F15-2241-471D-83E1-7FC939B275D8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E15BD327-B588-4182-AAA0-BBC03AC1213B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A8981D22-6CAD-41C8-83B4-3E1976CA64E0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5A044A09-3F61-4287-AB45-A5D03E263B15} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA2E14D9-7F73-4D01-87D3-9D294E4F510F}

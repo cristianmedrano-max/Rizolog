@@ -11,19 +11,19 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <ProjectReference Include="..\Rizolog.Users\rizolog.api.users.csproj" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
-    <Folder Include="Api\Responses\" />
     <Folder Include="Api\Requests\" />
+    <Folder Include="Api\Responses\" />
     <Folder Include="Application\DTOs\" />
     <Folder Include="Application\Interfaces\Repositories\" />
     <Folder Include="Domain\Enums\" />
-    <Folder Include="Infrastructure\Repositories\" />
     <Folder Include="Infrastructure\Persistence\Configurations\" />
     <Folder Include="Infrastructure\Persistence\DbContext\" />
+    <Folder Include="Infrastructure\Repositories\" />
   </ItemGroup>
 
 </Project>

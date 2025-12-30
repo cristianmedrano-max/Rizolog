@@ -1,0 +1,6 @@
+@rizolog.api.transaccions_HostAddress = http://localhost:5265
+
+GET {{rizolog.api.transaccions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
