@@ -10,4 +10,17 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Api\Controllers\" />
+    <Folder Include="Api\Responses\" />
+    <Folder Include="Api\Requests\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Enums\" />
+    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Infrastructure\Persistence\Configurations\" />
+    <Folder Include="Infrastructure\Persistence\DbContext\" />
+  </ItemGroup>
+
 </Project>
