@@ -17,9 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.pointsOfInteres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.reports", "Reports\rizolog.api.reports.csproj", "{A8981D22-6CAD-41C8-83B4-3E1976CA64E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "rizolog.api.users\rizolog.api.users.csproj", "{5A044A09-3F61-4287-AB45-A5D03E263B15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "Users\rizolog.api.users.csproj", "{5A044A09-3F61-4287-AB45-A5D03E263B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transaccions", "rizolog.api.transaccions\rizolog.api.transaccions.csproj", "{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transaccions", Transaccions\rizolog.api.transaccions.csproj", "{EAC7DF29-F3F2-498D-86E9-D2E6F7BCDA7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
