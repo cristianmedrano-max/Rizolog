@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.reports", "Repo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.users", "Users\rizolog.api.users.csproj", "{5A044A09-3F61-4287-AB45-A5D03E263B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rizolog.api.transactions", "..\rizolog.api.transactions\rizolog.api.transactions.csproj", "{688CA025-74A4-4B38-922A-DD01960249EF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
